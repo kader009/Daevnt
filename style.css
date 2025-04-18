@@ -105,22 +105,18 @@ text-decoration: underline;
   color: #fff;
 }
 
-/* conference */
+/* brand box */
 
-#eventimg1{
-  width: 10%;
-}
-
-#eventimg2{
-  width: 10%;
-}
-
-#eventimg3{
-  width: 10%;
-}
-
-.future-main-content{
+.box{
+  border: 1px solid #7546FF;
+  width: 310px;
+  height: 180px;
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
+  justify-content: center;
+  align-items: center;
+}
+
+.box-img{
+  width: 55px;
+  height: 50px;
 }
