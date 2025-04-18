@@ -105,6 +105,48 @@ text-decoration: underline;
   color: #fff;
 }
 
+/* about section */
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.feature-item {
+  margin-bottom: 1.5rem;
+}
+
+.feature-item i {
+  color: #7e5bef;
+  margin-right: 10px;
+}
+
+.cta {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.img-grid img {
+  width: 100%;
+  /* height: auto; */
+  object-fit: cover;
+}
+
+.img-top {
+  width: 618px;
+  height: 600px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.img-bottom {
+  height: 170px;
+  object-fit: cover;
+}
+
+
+
 /* brand box */
 
 .box{
