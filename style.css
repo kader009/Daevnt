@@ -28,6 +28,7 @@ header {
   align-items: center;
 }
 .navbar-brand img {
+  width: 50px;
   height: 40px;
   margin-right: 10px;
 }
@@ -35,4 +36,48 @@ header {
   font-weight: 500;
   color: #fff;
   font-size: 18px;
+}
+
+
+/* future event */
+
+.event-section{
+  background: #000;
+}
+
+.btn-purple-event {
+  background-color: #7546FF;
+  color: #fff;
+  padding: 0.5rem 1.25rem;
+  outline;: :none;
+  border: none;
+}
+
+.event-section h2 {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.event-row {
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.event-row:last-child {
+  border-bottom: none;
+}
+.event-title a {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.event-title a:hover {
+  text-decoration: underline;
+}
+.event-date .display-4 {
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 80px;
+  font-weight: 600;
 }
