@@ -171,3 +171,111 @@ text-decoration: underline;
   width: 55px;
   height: 50px;
 }
+
+
+/* faq and pricing section */
+
+.faq-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.faq-img {
+  max-width: 100%;
+  width: 570px;
+  object-fit: cover;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #f1f1f1;
+}
+
+.accordion-button {
+  font-weight: 500;
+}
+
+.accordion-body {
+  color: #555;
+}
+
+
+/* pricing */
+.pricing-section {
+  padding: 60px 20px 80px 20px;
+}
+
+.pricing-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 370px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  padding: 30px;
+  text-align: center;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.premium {
+  background-color: #f7f5ff;
+  color: #000;
+}
+
+.ordinary {
+  background-color: #6c4dff;
+  color: #fff;
+}
+
+.price {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.btn-ticket {
+  margin-top: 20px;
+  font-weight: 600;
+  padding: 12px 20px;
+}
+
+.btn-ticket.premium {
+  background-color: #6c4dff;
+  color: #fff;
+  border: none;
+}
+
+.btn-ticket.ordinary {
+  background-color: #fff;
+  color: #000;
+  border: none;
+}
+
+.pricing-features {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+}
+
+.pricing-features li::before {
+  content: "✔";
+  margin-right: 10px;
+  color: inherit;
+}
+
+/* Left text higher */
+.left-content h2 {
+  margin-bottom: 12px;
+}
+
+.left-content p {
+  max-width: 300px;
+}
