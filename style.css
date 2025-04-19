@@ -374,10 +374,10 @@ footer{
 .flat-input-group .input-group-text,
 .flat-input-group .form-control,
 .flat-input-group .btn {
-  background: transparent !important;  /* remove any background */
-  border: none;                        /* remove all borders */
-  border-radius: 0;                    /* no rounding */
-  box-shadow: none;                    /* kill any shadow */
+  background: transparent !important;  
+  border: none;                        
+  border-radius: 0;                    
+  box-shadow: none;                    
 }
 
 /* single bottom border on the input, the icon‑wrapper and the button */
@@ -398,8 +398,8 @@ footer{
 }
 
 .flat-input-group .btn {
-  color: #7546FF;       /* your purple color */
-  padding: 0;           /* remove extra padding */
+  color: #7546FF;      
+  padding: 0;           
   display: inline-flex;
   align-items: center;
 }
@@ -408,3 +408,4 @@ footer{
 .flat-input-group .btn i {
   margin-left: 0.5rem;
 }
+
