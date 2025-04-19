@@ -228,15 +228,17 @@ text-decoration: underline;
 
 .faq-section {
   min-height: 100vh;
+  width: 1400px;
   display: flex;
   align-items: center;
   padding: 60px 20px;
 }
 
 .faq-img {
-  max-width: 100%;
   width: 570px;
+  height: 600px;
   object-fit: cover;
+  transform: rotateY(180deg);
 }
 
 .accordion-button:not(.collapsed) {
@@ -250,6 +252,10 @@ text-decoration: underline;
 
 .accordion-body {
   color: #555;
+}
+
+.accordion-header{
+  background-color: #fff;
 }
 
 
