@@ -348,6 +348,14 @@ text-decoration: underline;
 
 
 /* footer section */
+footer{
+  background-color: #000;
+  /* background-image: url('./images/footerimg.jpeg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 640px; */
+}
+
 .brand-logo {
   font-size: 24px;
   font-weight: bold;
@@ -360,4 +368,43 @@ text-decoration: underline;
 }
 .custom-hr {
   border-color: rgba(0,0,0,0.1);
+}
+
+/* container tweaks */
+.flat-input-group .input-group-text,
+.flat-input-group .form-control,
+.flat-input-group .btn {
+  background: transparent !important;  /* remove any background */
+  border: none;                        /* remove all borders */
+  border-radius: 0;                    /* no rounding */
+  box-shadow: none;                    /* kill any shadow */
+}
+
+/* single bottom border on the input, the icon‑wrapper and the button */
+.flat-input-group .input-group-text,
+.flat-input-group .form-control,
+.flat-input-group .btn {
+  border-bottom: 1px solid #ccc;
+}
+
+/* spacing & color */
+.flat-input-group .input-group-text {
+  padding-right: 0.5rem;
+  padding-left: 0;      /* tighten up around the icon */
+}
+
+.flat-input-group .form-control {
+  margin: 0 0.5rem;
+}
+
+.flat-input-group .btn {
+  color: #7546FF;       /* your purple color */
+  padding: 0;           /* remove extra padding */
+  display: inline-flex;
+  align-items: center;
+}
+
+/* small gap between button text and its icon */
+.flat-input-group .btn i {
+  margin-left: 0.5rem;
 }
