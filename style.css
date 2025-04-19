@@ -41,6 +41,45 @@ header {
   font-size: 18px;
 }
 
+/* slider text */
+
+.text-slide-section {
+  background-color: #7546FF;
+  overflow-x: auto;
+  height: 95px;
+}
+
+.slide-text {
+  font-size: 39px;
+  font-weight: 600;
+  position: relative;
+  white-space: nowrap;
+}
+
+.invisible-text {
+  margin-left: 1.6rem;
+  visibility: hidden;
+  display: inline-block;
+}
+
+.visible-text {
+  display: inline-block;
+}
+
+.divider-box {
+  width: 25px;
+  height: 25px;
+  background-color: #FFD6B3;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.nextgen {
+  color: transparent;
+  -webkit-text-stroke: 1px white; /* White border */
+  text-stroke: 1px white; /* Fallback for other browsers */
+}
+
 
 /* future event */
 
@@ -417,18 +456,15 @@ footer{
 
 /* arrow sign style */
 .fas {
-  position: fixed;
+  position: fixed; /* Not sticky */
   width: 2rem;
-  height: 1.9rem;
+  height: 2rem;
   background: #fff;
   bottom: 2.125rem;
   right: 2.125rem;
   text-decoration: none;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 2.125rem;
+  line-height: 2rem;
   color: #000;
   border-radius: 50%;
 }
