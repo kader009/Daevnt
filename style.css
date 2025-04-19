@@ -380,6 +380,10 @@ footer{
   box-shadow: none;                    
 }
 
+.form-control::placeholder{
+  color: white;
+}
+
 /* single bottom border on the input, the icon‑wrapper and the button */
 .flat-input-group .input-group-text,
 .flat-input-group .form-control,
@@ -390,7 +394,7 @@ footer{
 /* spacing & color */
 .flat-input-group .input-group-text {
   padding-right: 0.5rem;
-  padding-left: 0;      /* tighten up around the icon */
+  padding-left: 0;     
 }
 
 .flat-input-group .form-control {
@@ -409,3 +413,22 @@ footer{
   margin-left: 0.5rem;
 }
 
+
+
+/* arrow sign style */
+.fas {
+  position: fixed;
+  width: 2rem;
+  height: 1.9rem;
+  background: #fff;
+  bottom: 2.125rem;
+  right: 2.125rem;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 2.125rem;
+  color: #000;
+  border-radius: 50%;
+}
