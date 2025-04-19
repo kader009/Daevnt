@@ -215,6 +215,12 @@ text-decoration: underline;
 .box-img{
   width: 55px;
   height: 50px;
+  margin-right: 8px;
+}
+
+.brand{
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 
