@@ -106,7 +106,6 @@ text-decoration: underline;
 }
 
 /* about section */
-
 .section-title {
   font-size: 2.5rem;
   font-weight: bold;
@@ -127,10 +126,10 @@ text-decoration: underline;
   margin-top: 2rem;
 }
 
-.img-grid img {
-  width: 100%;
-  /* height: auto; */
-  object-fit: cover;
+.img-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .img-top {
@@ -140,12 +139,22 @@ text-decoration: underline;
   margin-bottom: 1rem;
 }
 
+.img-bottom-row {
+  display: flex;
+  gap: 1rem;
+}
+
 .img-bottom {
-  height: 170px;
+  width: 375px;
+  height: 380px;
   object-fit: cover;
 }
 
-
+.img-bottom-last {
+  width: 225px;
+  height: 380px;
+  object-fit: cover;
+}
 
 /* brand box */
 
