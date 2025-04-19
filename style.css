@@ -234,6 +234,11 @@ text-decoration: underline;
   padding: 60px 20px;
 }
 
+.frequent{
+  padding-top: 147px;
+  padding-bottom: 150px;
+}
+
 .faq-img {
   width: 570px;
   height: 600px;
@@ -260,6 +265,7 @@ text-decoration: underline;
 
 
 /* pricing */
+
 .pricing-section {
   padding: 60px 20px 80px 20px;
 }
@@ -277,14 +283,14 @@ text-decoration: underline;
   text-align: center;
 }
 
-.pricing-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+.premium {
+  background-color: #F8F6FF;
+  color: #000;
 }
 
-.premium {
-  background-color: #f7f5ff;
-  color: #000;
+.premium h5{
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .ordinary {
@@ -293,8 +299,8 @@ text-decoration: underline;
 }
 
 .price {
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 50px;
+  font-weight: 600;
   margin: 10px 0;
 }
 
@@ -322,19 +328,23 @@ text-decoration: underline;
   text-align: left;
 }
 
-.pricing-features li::before {
+/* .pricing-features li::before {
   content: "✔";
   margin-right: 10px;
-  color: inherit;
-}
+  color: #000;
+} */
 
 /* Left text higher */
 .left-content h2 {
   margin-bottom: 12px;
+  font-size: 50px;
+  font-weight: 600;
 }
 
 .left-content p {
-  max-width: 300px;
+  max-width: 308px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 
