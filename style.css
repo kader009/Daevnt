@@ -378,7 +378,7 @@ text-decoration: underline;
 /* each blog box fixed size */
 .blog-box {
   width: 420px;
-  height: 470px;
+  height: 485px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -393,9 +393,8 @@ text-decoration: underline;
 
 /* title paragraph */
 .blog-box p {
-  margin: 16px;
-  font-size: 18px;
-  line-height: 1.4;
+  margin-top: 25px;
+  font-size: 20px;
   flex-grow: 1;
   color: #fff;            
 }
@@ -404,7 +403,6 @@ text-decoration: underline;
 .blog-meta {
   display: flex;
   gap: 90px;
-  padding: 0 16px 16px;
   font-size: 14px;
   color: #fff;
 }
@@ -425,7 +423,6 @@ text-decoration: underline;
   display: inline-block;
   margin-right: 8px;  
 }
-
 
 /* footer section */
 footer{
