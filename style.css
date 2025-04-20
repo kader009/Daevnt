@@ -440,6 +440,7 @@ text-decoration: underline;
 }
 
 /* footer section */
+
 .footer {
   background: radial-gradient(circle at left, #1e1b47, #000);
   color: #fff;
@@ -450,13 +451,13 @@ text-decoration: underline;
 
 .footer .bg-left {
   background: url('./images/footerimg.jpeg') no-repeat center center;
-  background-size: contain;
+  background-size: cover;
   opacity: 0.08;
   position: absolute;
   left: 0;
   top: 0;
   bottom: 0;
-  width: 30%;
+  width: 100%;
   pointer-events: none;
   mix-blend-mode: hard-light;
 }
@@ -552,7 +553,9 @@ text-decoration: underline;
   margin-left: 0.5rem;
 }
 
-
+.footer ul li{
+  margin-bottom: 7px;
+}
 
 
 /* arrow sign style */
