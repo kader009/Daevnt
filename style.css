@@ -442,25 +442,28 @@ text-decoration: underline;
 /* footer section */
 
 .footer {
-  background: radial-gradient(circle at left, #1e1b47, #000);
+  position: relative;
   color: #fff;
   padding: 60px 0 20px;
-  position: relative;
-  height: 640px;
+  background: linear-gradient(to right, #1e1b47 0%, #0a0a0a 40%, #000 100%);
+  overflow: hidden;
 }
+
 
 .footer .bg-left {
   background: url('./images/footerimg.jpeg') no-repeat center center;
   background-size: cover;
-  opacity: 0.08;
+  opacity: 25%;
   position: absolute;
-  left: 0;
   top: 0;
+  left: 0;
   bottom: 0;
   width: 100%;
   pointer-events: none;
   mix-blend-mode: hard-light;
+  z-index: 0;
 }
+
 
 .footer .footer-content {
   position: relative;
@@ -506,9 +509,15 @@ text-decoration: underline;
   color: #000;
 }
 
+.social-icons a.activeonly{
+  background: #fff;
+  color: #000;
+}
+
 .middle-img {
   width: 390px;
-  height: 468px;
+  height: 270px;
+  object-fit: contain;
 }
 
 .flat-input-group .input-group-text,
@@ -528,7 +537,7 @@ text-decoration: underline;
 .flat-input-group .input-group-text,
 .flat-input-group .form-control,
 .flat-input-group .btn {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #7546FF;
 }
 
 /* spacing & color */
@@ -560,15 +569,23 @@ text-decoration: underline;
 
 /* arrow sign style */
 .fas {
-  position: fixed; /* Not sticky */
-  width: 2rem;
-  height: 2rem;
+  position: fixed; 
+  width: 2.5rem;
+  height: 2.5rem;
   background: #fff;
   bottom: 2.125rem;
   right: 2.125rem;
   text-decoration: none;
-  text-align: center;
-  line-height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #000;
   border-radius: 50%;
+  z-index: 999;
 }
+
+.fas img{
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
